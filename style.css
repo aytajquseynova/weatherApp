@@ -1,0 +1,60 @@
+.container{
+    width:100%;
+   
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    background-color: black;
+    color:white;
+    position: relative;
+    transform: translate(50%, 50%);
+}
+.weather-search{
+    padding-top:10px;
+    margin:20px;
+    text-align: center;
+}
+#searchCity, #submit{
+    padding:10px;
+    border:none;
+    text-decoration: none;
+    outline: none;
+    border-radius:5px;
+
+}
+#submit{
+    cursor: pointer;
+    background-color: rgb(157, 112, 199);
+    color:White;
+}
+.weather-location-date,
+.weather-temp,
+.weather-humidity-wind {
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+}
+#weatherTempInfo{
+    text-align: center;
+    font-size:48px;
+}
+#far {
+    background:#1f4c7a;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+#celsi{
+    background: #1976d2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.far-celsi{
+    display: flex;
+    gap:10px;
+    color:White;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="weather">
+        <div class="weather-search">
+    <form>
+        <input type="text" placeholder="Baku" id="searchCity">
+        <button type="submit" id="submit">Submit</button>
+    </form>
+        </div>
+        <div class="weather-details">
+            <div class="weather-location-date">
+            <div id="weatherLocation">
+                
+            </div>
+            <div id="date">Date</div>
+            </div>
+            <div class="weather-temp">
+                <div id="weatherTempinfo">
+                    <p id="f"></p>
+                    <p id="c"></p>
+                </div>
+                <!-- <div class="weather-temp-icon"></div> -->
+                   <div class="far-celsi">
+                        <div id="far">°F</div>
+                        <div id ="celsi">°C</div>
+                    </div>
+            </div>
+            <div class="weather-humidity-wind">
+                <div id="humidity">Humidity</div>
+                <div id="wind">Wind</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
